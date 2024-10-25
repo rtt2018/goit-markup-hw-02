@@ -1,0 +1,16 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+.menu-list {
+  gap: 8px;
+}
+
+.menu-list-link {
+  color: #2e2f42;
+}
