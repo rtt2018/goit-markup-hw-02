@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: 2%;
+
   color: #434455;
   background-color: #ffffff;
 }
@@ -21,10 +21,28 @@ header {
 
 .logo {
   margin-left: 156px;
+  display: flex;
+  text-decoration: none;
 }
 
 .logo-web {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
 }
 
 .menu-list {
@@ -60,14 +78,27 @@ header {
   letter-spacing: 2%;
   line-height: 60px;
   color: #ffffff;
+  text-align: center;
 }
 
 .order-button {
   cursor: pointer;
+  border-radius: 4px;
+
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
 }
 
 .benefits-section {
-  text-align: center;
+  justify-content: center;
+  padding: 120px 156px;
 }
 
 .benefits-href {
@@ -80,22 +111,63 @@ header {
   flex-direction: row;
   gap: 24px;
   text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.benefits-list-href {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin: 0;
+}
+
+.benefits-list-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin: 8px 0px 0px 0px;
 }
 
 .team-section {
   text-align: center;
+  background-color: #f4f4fd;
+  min-height: 732px;
+  padding-top: 120px;
+}
+
+.team-href {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin: 0;
 }
 
 .team-list {
+  margin-top: 72px;
   list-style-type: none;
   display: flex;
-  flex-direction: row;
   gap: 24px;
+  justify-content: center;
+  padding: 0;
+}
+
+.team-list-item {
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-section {
   text-align: center;
-  align-items: center;
+  justify-content: center;
 }
 
 .portfolio-href {
@@ -106,6 +178,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
+  justify-content: center;
 }
 
 .footer-section {
@@ -114,6 +187,18 @@ header {
 }
 
 .footer-link {
+  text-decoration: none;
+  display: flex;
+}
+
+.footer-logo-studio {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
 }
 
 .footer-description {
