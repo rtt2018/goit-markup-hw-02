@@ -24,6 +24,7 @@ ul {
   flex-direction: row;
   align-items: center;
   margin-left: 156px;
+  margin-right: 40px;
 }
 
 .logo {
@@ -63,15 +64,31 @@ ul {
   text-decoration: none;
 }
 
+.menu-list-link:hover {
+  color: #404bbf;
+  text-decoration: none;
+}
+
+.menu-list-link:active {
+  color: #404bbf;
+  border-bottom: 4px solid #404bbf;
+  border-radius: 2px;
+  padding-bottom: 8px;
+}
+
 .address-container {
   margin-left: auto;
   margin-right: 156px;
+  justify-content: end;
 }
 
 .address-list {
   list-style-type: none;
   display: flex;
-  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  column-gap: 40px;
+  row-gap: 8px;
   font-style: normal;
   margin: 0;
 }
@@ -84,6 +101,16 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.address-list-item:hover {
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
 }
 
 /*---------------------------HERO-SECTION-------------------------------*/
@@ -114,6 +141,20 @@ ul {
   height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.order-button:hover {
+  cursor: pointer;
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #404bbf;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -288,6 +329,8 @@ ul {
 .footer-section {
   background-color: #2e2f42;
   height: 312px;
+  padding-top: 100px;
+  padding-left: 156px;
 }
 
 .footer-link {
@@ -311,4 +354,5 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
 }
