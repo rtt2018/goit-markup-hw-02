@@ -51,6 +51,7 @@ button {
 }
 
 .address-container {
+  font-style: normal;
 }
 
 .address-list {
@@ -77,15 +78,13 @@ button {
 
 .master-href {
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
 }
 
 .order-button {
-  border-radius: 4px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
   font-weight: 500;
   font-size: 16px;
@@ -96,8 +95,6 @@ button {
 
 .order-button:hover,
 .order-button:focus {
-  border-radius: 4px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #404bbf;
   font-weight: 500;
   font-size: 16px;
@@ -140,9 +137,10 @@ button {
 .team-section-href {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .teams-href {
@@ -166,9 +164,6 @@ button {
 
 .team-list-item {
   background-color: #ffffff;
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 /*---------------------PORTFOLIO-SECTION---------------------------*/
@@ -179,15 +174,13 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .portfolio-list {
 }
 
 .portfolio-list-item {
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
 }
 
 .portfolio-list-item-href {
