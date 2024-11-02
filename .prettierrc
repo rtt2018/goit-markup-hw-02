@@ -1,4 +1,4 @@
 {
   "jsxBracketSameLine": true,
-  "htmlWhitespaceSensitivity": "ignore"
+  "htmlWhitespaceSensitivity": "strict"
 }
